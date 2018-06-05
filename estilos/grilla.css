@@ -1,99 +1,83 @@
 .row{
   clear: both;
 }
-.row>.col-xs-1,.row>.col-xs-2,.row>.col-xs-3,.row>.col-xs-4,.row>.col-xs-5,
-.row>.col-xs-6,.row>.col-xs-7,.row>.col-xs-8,.row>.col-xs-9,.row>.col-xs-10,
-.row>.col-sm-1,.row>.col-sm-2,.row>.col-sm-3,.row>.col-sm-4,.row>.col-sm-5,
-.row>.col-sm-6,.row>.col-sm-7,.row>.col-sm-8,.row>.col-sm-9,.row>.col-sm-10,
-.row>.col-md-1,.row>.col-md-2,.row>.col-md-3,.row>.col-md-4,.row>.col-md-5,
-.row>.col-md-6,.row>.col-md-7,.row>.col-md-8,.row>.col-md-9,.row>.col-md-10
-.row>.offset-xs-1,.row>.offset-xs-2,.row>.offset-xs-3,.row>.offset-xs-4,
-.row>.offset-xs-5,.row>.offset-xs-6,.row>.offset-xs-7,.row>.offset-xs-8,
-.row>.offset-xs-9,.row>.offset-xs-10,.row>.offset-sm-1,.row>.offset-sm-2
-.row>.offset-sm-3,.row>.offset-sm-4,.row>.offset-sm-5,.row>.offset-sm-6,
-.row>.offset-sm-7,.row>.offset-sm-8,.row>.offset-sm-9,.row>.offset-sm-10,
-.row>.offset-md-1,.row>.offset-md-2,.row>.offset-md-3,.row>.offset-md-4,
-.row>.offset-md-5,.row>.offset-md-6,.row>.offset-md-7,.row>.offset-md-8,
-.row>.offset-md-9,.row>.offset-md-10
-{
-  float: left;
-}
+
 /* ------------------------------------------------------------------- */
 /* Tamaño muy pequeño */
 @media (min-width: 480px) and (max-width: 599px) {
   /* Definicion largo columnas */
-  .row>.col-xs-1 { height: 10%  }
-  .row>.col-xs-2 { height: 20%  }
-  .row>.col-xs-3 { height: 30%  }
-  .row>.col-xs-4 { height: 40%  }
-  .row>.col-xs-5 { height: 50%  }
-  .row>.col-xs-6 { height: 60%  }
-  .row>.col-xs-7 { height: 70%  }
-  .row>.col-xs-8 { height: 80%  }
-  .row>.col-xs-9 { height: 90%  }
-  .row>.col-xs-10{ height: 100% }
+  .row>.col-xs-1 { height: 10%;  float: left; }
+  .row>.col-xs-2 { height: 20%;  float: left; }
+  .row>.col-xs-3 { height: 30%;  float: left; }
+  .row>.col-xs-4 { height: 40%;  float: left; }
+  .row>.col-xs-5 { height: 50%;  float: left; }
+  .row>.col-xs-6 { height: 60%;  float: left; }
+  .row>.col-xs-7 { height: 70%;  float: left; }
+  .row>.col-xs-8 { height: 80%;  float: left; }
+  .row>.col-xs-9 { height: 90%;  float: left; }
+  .row>.col-xs-10{ height: 100%; float: left; }
   /* Definición largo offsets */
-  .row>.offset-xs-1 { margin-left: 10%  }
-  .row>.offset-xs-2 { margin-left: 20%  }
-  .row>.offset-xs-3 { margin-left: 30%  }
-  .row>.offset-xs-4 { margin-left: 40%  }
-  .row>.offset-xs-5 { margin-left: 50%  }
-  .row>.offset-xs-6 { margin-left: 60%  }
-  .row>.offset-xs-7 { margin-left: 70%  }
-  .row>.offset-xs-8 { margin-left: 80%  }
-  .row>.offset-xs-9 { margin-left: 90%  }
-  .row>.offset-xs-10{ margin-left: 100% }
+  .row>.offset-xs-1 { margin-left: 10%;  float: left; }
+  .row>.offset-xs-2 { margin-left: 20%;  float: left; }
+  .row>.offset-xs-3 { margin-left: 30%;  float: left; }
+  .row>.offset-xs-4 { margin-left: 40%;  float: left; }
+  .row>.offset-xs-5 { margin-left: 50%;  float: left; }
+  .row>.offset-xs-6 { margin-left: 60%;  float: left; }
+  .row>.offset-xs-7 { margin-left: 70%;  float: left; }
+  .row>.offset-xs-8 { margin-left: 80%;  float: left; }
+  .row>.offset-xs-9 { margin-left: 90%;  float: left; }
+  .row>.offset-xs-10{ margin-left: 100%; float: left; }
 }
 /* ------------------------------------------------------------------- */
 /* Tamaño pequeño */
 @media (min-width: 600px) and (max-width: 799px) {
   /* Definicion largo columnas */
-  .row>.col-sm-1 { height: 10%  }
-  .row>.col-sm-2 { height: 20%  }
-  .row>.col-sm-3 { height: 30%  }
-  .row>.col-sm-4 { height: 40%  }
-  .row>.col-sm-5 { height: 50%  }
-  .row>.col-sm-6 { height: 60%  }
-  .row>.col-sm-7 { height: 70%  }
-  .row>.col-sm-8 { height: 80%  }
-  .row>.col-sm-9 { height: 90%  }
-  .row>.col-sm-10{ height: 100% }
+  .row>.col-sm-1 { height: 10%;  float: left; }
+  .row>.col-sm-2 { height: 20%;  float: left; }
+  .row>.col-sm-3 { height: 30%;  float: left; }
+  .row>.col-sm-4 { height: 40%;  float: left; }
+  .row>.col-sm-5 { height: 50%;  float: left; }
+  .row>.col-sm-6 { height: 60%;  float: left; }
+  .row>.col-sm-7 { height: 70%;  float: left; }
+  .row>.col-sm-8 { height: 80%;  float: left; }
+  .row>.col-sm-9 { height: 90%;  float: left; }
+  .row>.col-sm-10{ height: 100%; float: left; }
   /* Definición largo offsets */
-  .row>.offset-sm-1 { margin-left: 10%  }
-  .row>.offset-sm-2 { margin-left: 20%  }
-  .row>.offset-sm-3 { margin-left: 30%  }
-  .row>.offset-sm-4 { margin-left: 40%  }
-  .row>.offset-sm-5 { margin-left: 50%  }
-  .row>.offset-sm-6 { margin-left: 60%  }
-  .row>.offset-sm-7 { margin-left: 70%  }
-  .row>.offset-sm-8 { margin-left: 80%  }
-  .row>.offset-sm-9 { margin-left: 90%  }
-  .row>.offset-sm-10{ margin-left: 100% }
+  .row>.offset-sm-1 { margin-left: 10%;  float: left; }
+  .row>.offset-sm-2 { margin-left: 20%;  float: left; }
+  .row>.offset-sm-3 { margin-left: 30%;  float: left; }
+  .row>.offset-sm-4 { margin-left: 40%;  float: left; }
+  .row>.offset-sm-5 { margin-left: 50%;  float: left; }
+  .row>.offset-sm-6 { margin-left: 60%;  float: left; }
+  .row>.offset-sm-7 { margin-left: 70%;  float: left; }
+  .row>.offset-sm-8 { margin-left: 80%;  float: left; }
+  .row>.offset-sm-9 { margin-left: 90%;  float: left; }
+  .row>.offset-sm-10{ margin-left: 100%; float: left; }
 }
 /* ------------------------------------------------------------------- */
 /* Tamaño mediano */
 @media (min-width: 800px) {
   /* Definicion largo columnas */
-  .row>.col-md-1 { height: 10%  }
-  .row>.col-md-2 { height: 20%  }
-  .row>.col-md-3 { height: 30%  }
-  .row>.col-md-4 { height: 40%  }
-  .row>.col-md-5 { height: 50%  }
-  .row>.col-md-6 { height: 60%  }
-  .row>.col-md-7 { height: 70%  }
-  .row>.col-md-8 { height: 80%  }
-  .row>.col-md-9 { height: 90%  }
-  .row>.col-md-10{ height: 100% }
+  .row>.col-md-1 { height: 10%;  float: left; }
+  .row>.col-md-2 { height: 20%;  float: left; }
+  .row>.col-md-3 { height: 30%;  float: left; }
+  .row>.col-md-4 { height: 40%;  float: left; }
+  .row>.col-md-5 { height: 50%;  float: left; }
+  .row>.col-md-6 { height: 60%;  float: left; }
+  .row>.col-md-7 { height: 70%;  float: left; }
+  .row>.col-md-8 { height: 80%;  float: left; }
+  .row>.col-md-9 { height: 90%;  float: left; }
+  .row>.col-md-10{ height: 100%; float: left; }
   /* Definición largo offsets */
-  .row>.offset-md-1 { margin-left: 10%  }
-  .row>.offset-md-2 { margin-left: 20%  }
-  .row>.offset-md-3 { margin-left: 30%  }
-  .row>.offset-md-4 { margin-left: 40%  }
-  .row>.offset-md-5 { margin-left: 50%  }
-  .row>.offset-md-6 { margin-left: 60%  }
-  .row>.offset-md-7 { margin-left: 70%  }
-  .row>.offset-md-8 { margin-left: 80%  }
-  .row>.offset-md-9 { margin-left: 90%  }
-  .row>.offset-md-10{ margin-left: 100% }
+  .row>.offset-md-1 { margin-left: 10%;  float: left; }
+  .row>.offset-md-2 { margin-left: 20%;  float: left; }
+  .row>.offset-md-3 { margin-left: 30%;  float: left; }
+  .row>.offset-md-4 { margin-left: 40%;  float: left; }
+  .row>.offset-md-5 { margin-left: 50%;  float: left; }
+  .row>.offset-md-6 { margin-left: 60%;  float: left; }
+  .row>.offset-md-7 { margin-left: 70%;  float: left; }
+  .row>.offset-md-8 { margin-left: 80%;  float: left; }
+  .row>.offset-md-9 { margin-left: 90%;  float: left; }
+  .row>.offset-md-10{ margin-left: 100%; float: left; }
 }
 /* ------------------------------------------------------------------- */
