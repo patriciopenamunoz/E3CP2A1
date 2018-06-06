@@ -39,9 +39,9 @@ span,.columna h2,.puntuacion{
 .foto{
   position: relative;
   bottom: 50px;
-  left: calc(50% - (18vh / 2));
-  height: 18vh;
-  width: 18vh;
+  left: calc(50% - (120px / 2));
+  height: 120px;
+  width: 120px;
   border: solid 5px #eeeeef;
   box-sizing: border-box;
   border-radius: 100%;
