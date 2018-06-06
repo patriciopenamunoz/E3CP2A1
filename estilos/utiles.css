@@ -1,0 +1,22 @@
+.clearfix{
+  clear: both;
+}
+.texto-centrado{
+  text-align: center;
+}
+.con-margen-1,.con-margen-2,.con-margen-3,.con-margen-4,.con-margen-5,
+.con-margen-6,.con-margen-7,.con-margen-8,.con-margen-9,.con-margen-10
+{
+  box-sizing: border-box;
+}
+
+.con-margen-1 { padding: 1px  }
+.con-margen-2 { padding: 2px  }
+.con-margen-3 { padding: 3px  }
+.con-margen-4 { padding: 4px  }
+.con-margen-5 { padding: 5px  }
+.con-margen-6 { padding: 6px  }
+.con-margen-7 { padding: 7px  }
+.con-margen-8 { padding: 8px  }
+.con-margen-9 { padding: 9px  }
+.con-margen-10{ padding: 10px }
