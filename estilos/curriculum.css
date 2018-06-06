@@ -1,3 +1,85 @@
 body{
   margin: 0;
+  background-color: rgb(238, 238, 238);
+  font-family: 'Roboto', sans-serif;
+  color: rgb(40, 40, 40);
+}
+/* ----------------------------------------- */
+.margen-vertical{
+  height: 15vh;
+}
+.cuerpo{
+  background-color: white;
+}
+.cabezal{
+  height: 70px;
+  padding-bottom: 10px;
+}
+.barra>div{
+  background-color: rgb(255, 120, 60);
+  color: white;
+  box-sizing: border-box;
+  padding: 5px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+span,.columna h2,.puntuacion{
+  color: rgb(255, 120, 60);
+}
+.puntuacion{
+  font-weight: bold;
+}
+.puntuacion span{
+  color: #939393
+}
+.columna h2::before{
+  content: '// ';
+}
+.foto{
+  position: relative;
+  bottom: 50px;
+  left: calc(50% - (18vh / 2));
+  height: 18vh;
+  width: 18vh;
+  border: solid 5px #eeeeef;
+  box-sizing: border-box;
+  border-radius: 100%;
+  background-image: url('../imagenes/foto.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.separador{
+  border-bottom: solid 3px #eeeeef;
+  margin-left: 2%;
+  width: 96%;
+  margin-bottom: 10px;
+}
+.ant-educacion{
+  background-color: #eeeeef;
+  box-sizing: border-box;
+  padding: 0 10px;
+  margin-bottom: 10px;
+}
+.hobbies{
+  float: left;
+  color: white;
+  border-radius: 3px;
+  font-weight: bold;
+  background-color: rgb(140, 0, 65);
+  padding: 6px;
+  margin: 2px;
+}
+.ant-laboral h3{
+  margin-bottom: 0;
+}
+.ant-laboral h6{
+  margin: 5px 0;
+  color: rgb(145, 145, 145);
+}
+.pie{
+  font-size: small;
+  box-sizing: border-box;
+  padding: 10px 20px;
+  text-align: right;
 }
