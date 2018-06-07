@@ -3,7 +3,7 @@
 }
 /* ------------------------------------------------------------------- */
 /* Tamaño muy pequeño */
-@media (max-width: 699px) {
+@media (max-width: 420px) {
   /* Definicion largo columnas */
   .row>.col-xs-0 { display: none; float: left; }
   .row>.col-xs-1 { width: 5%;     float: left; }
@@ -50,7 +50,7 @@
 }
 /* ------------------------------------------------------------------- */
 /* Tamaño pequeño */
-@media (min-width: 700px) and (max-width: 799px) {
+@media (min-width: 421px) and (max-width: 800px) {
   /* Definicion largo columnas */
   .row>.col-sm-0 { display: none; float: left; }
   .row>.col-sm-1 { width: 5%;     float: left; }
@@ -97,7 +97,7 @@
 }
 /* ------------------------------------------------------------------- */
 /* Tamaño mediano */
-@media (min-width: 800px) {
+@media (min-width: 801px) {
   /* Definicion largo columnas */
   .row>.col-md-0 { display: none; float: left; }
   .row>.col-md-1 { width: 5%;     float: left; }
